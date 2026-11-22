@@ -1,0 +1,5 @@
+{
+  "name": "d2d-mods",
+  "owner": { "name": "d2d" },
+  "plugins": [{ "name": "d2d-claude-utility-mod", "source": "./" }]
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c2410c"/>
+    </marker>
+  </defs>
+  <rect width="720" height="400" rx="16" fill="#f5f4ef"/>
+
+  <!-- step 1: right-click with nothing selected -->
+  <text x="40" y="44" font-size="14" font-weight="600" fill="#c2410c">1  Right-click the chat with nothing selected</text>
+  <g filter="url(#shadow)">
+    <rect x="40" y="62" width="300" height="118" rx="10" fill="#ffffff" stroke="#e2dfd6"/>
+  </g>
+  <text x="60" y="92" font-size="15" fill="#9a968c">Copy</text>
+  <line x1="52" y1="106" x2="328" y2="106" stroke="#ece9e1"/>
+  <rect x="48" y="114" width="284" height="56" rx="7" fill="#eef4ff"/>
+  <text x="66" y="138" font-size="15" font-weight="600" fill="#1f1d19">Clean up session files…</text>
+  <text x="66" y="158" font-size="13" fill="#6f6b62">Asks before deleting</text>
+
+  <text x="380" y="100" font-size="14" fill="#6f6b62">or type</text>
+  <rect x="436" y="83" width="80" height="26" rx="6" fill="#ece9e1"/>
+  <text x="446" y="101" font-size="14" font-family="SFMono-Regular, Menlo, monospace" fill="#1f1d19">/cleanup</text>
+
+  <path d="M190 190 C 190 220, 190 220, 190 236" stroke="#c2410c" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- step 2: confirm above the prompt -->
+  <text x="40" y="262" font-size="14" font-weight="600" fill="#c2410c">2  Confirm above the prompt</text>
+  <rect x="40" y="276" width="640" height="44" rx="10" fill="#ffffff" stroke="#e2dfd6"/>
+  <text x="60" y="304" font-size="15" fill="#1f1d19">Delete 42 temp files (3.1 MB)?</text>
+  <rect x="300" y="285" width="76" height="26" rx="6" fill="#d97757"/>
+  <text x="317" y="303" font-size="14" font-weight="600" fill="#ffffff">Delete</text>
+  <rect x="386" y="285" width="76" height="26" rx="6" fill="#ffffff" stroke="#d6d2c8"/>
+  <text x="400" y="303" font-size="14" fill="#3d3a33">Cancel</text>
+
+  <rect x="40" y="328" width="640" height="48" rx="12" fill="#ffffff" stroke="#d6d2c8"/>
+  <text x="60" y="357" font-size="15" fill="#a8a49a">Reply to Claude…</text>
+
+  <!-- toast -->
+  <g filter="url(#shadow)">
+    <rect x="452" y="200" width="228" height="56" rx="10" fill="#2b2924"/>
+  </g>
+  <text x="468" y="224" font-size="13" fill="#ffffff">Deleted 42 files (3.1 MB).</text>
+  <text x="468" y="243" font-size="13" fill="#d6d2c8">Ready to delete the session.</text>
+</svg>

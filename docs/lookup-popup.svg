@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="720" height="380" rx="16" fill="#f5f4ef"/>
+
+  <!-- macOS-style Look Up popup -->
+  <g filter="url(#shadow)">
+    <rect x="60" y="28" width="540" height="250" rx="14" fill="#ffffff" stroke="#e2dfd6"/>
+    <path d="M110 278 l14 16 l14 -16 z" fill="#ffffff"/>
+  </g>
+  <text x="92" y="66" font-size="20" fill="#4a463e">Dictionary</text>
+  <line x1="196" y1="60" x2="572" y2="60" stroke="#ece9e1"/>
+  <text x="112" y="102" font-size="20" font-weight="700" font-family="Georgia, 'Times New Roman', serif" fill="#1f1d19">animation</text>
+  <text x="226" y="102" font-size="15" fill="#8a867c">noun</text>
+  <text x="124" y="136" font-size="15" fill="#8a867c">1</text>
+  <text x="140" y="136" font-size="16" font-family="Georgia, 'Times New Roman', serif" fill="#2b2924">the quality of being lively and full of energy</text>
+  <text x="124" y="166" font-size="15" fill="#8a867c">2</text>
+  <text x="140" y="166" font-size="16" font-family="Georgia, 'Times New Roman', serif" fill="#2b2924">a film or game made from a series of drawn</text>
+  <text x="140" y="188" font-size="16" font-family="Georgia, 'Times New Roman', serif" fill="#2b2924">or rendered frames shown quickly in turn</text>
+  <rect x="84" y="222" width="500" height="38" rx="19" fill="#f3f1ec"/>
+  <rect x="96" y="228" width="104" height="26" rx="13" fill="#e2dfd6"/>
+  <text x="114" y="246" font-size="13" fill="#3d3a33">Dictionary</text>
+  <text x="220" y="246" font-size="13" fill="#8a867c">Thesaurus</text>
+  <text x="306" y="246" font-size="13" fill="#8a867c">Wikipedia</text>
+
+  <!-- the selected word in the chat -->
+  <text x="48" y="320" font-size="17" fill="#3d3a33">The</text>
+  <rect x="84" y="302" width="80" height="25" rx="4" fill="#fff36b"/>
+  <text x="88" y="320" font-size="17" fill="#1f1d19">animation</text>
+  <text x="170" y="320" font-size="17" fill="#3d3a33">sprite sheet keeps the frames in one texture</text>
+
+  <text x="48" y="358" font-size="13" fill="#6f6b62">The real macOS Look Up popup opens on the word you right-clicked.</text>
+</svg>
