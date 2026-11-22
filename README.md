@@ -1,6 +1,6 @@
 # d2d-claude-utility-mod
 
-A small Claude Code mod that adds three handy actions to the Claude desktop app's chat:
+**d2d** stands for **day to day**: a small Claude Code mod with everyday actions for the Claude desktop app's chat:
 
 - **Look up** a selected word in the real macOS Look Up popup (dictionary, thesaurus and more).
 - **Search Google** for selected text in your default browser.
