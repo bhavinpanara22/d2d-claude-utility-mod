@@ -6,7 +6,9 @@ A small Claude Code mod that adds three handy actions to the Claude desktop app'
 - **Search Google** for selected text in your default browser.
 - **Clean up session files**: empty the current session's temp and cache files before you delete the session, always asking first.
 
-The images below are illustrations of what you'll see.
+![Demo: right-click a word to look it up or search Google, then right-click empty space to clean up the session's temp files](docs/demo.gif)
+
+The demo and images below are illustrations of what you'll see.
 
 ## Features
 
