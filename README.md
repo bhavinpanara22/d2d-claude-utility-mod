@@ -90,3 +90,7 @@ To try a change without installing it, start Claude with the folder loaded:
 ```bash
 claude --plugin-dir /path/to/d2d-claude-utility-mod
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).

@@ -2,5 +2,6 @@
   "name": "d2d-claude-utility-mod",
   "version": "0.1.0",
   "description": "Look up and Search Google on selected chat text, and a session temp-file cleanup from the right-click menu or /cleanup",
-  "types": "./types/index.d.ts"
+  "types": "./types/index.d.ts",
+  "license": "MIT"
 }
